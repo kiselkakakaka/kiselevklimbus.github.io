@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test site</title>
+</head>
+<body>
+
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#!"><i class="material-icons">home</i>Главная</a></li>
+        <li><a href="#!"><i class="material-icons">airport_shuttle</i>Автопарк</a></li>
+        <li><a href="#!"><i class="material-icons">grade</i>Услуги</a></li>
+        <li><a href="#!"><i class="material-icons">phone</i>Контакты</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a></li>
+    </ul>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__title">
+                <img src="img1/logo.png" alt="Logo" class="logo">
+                <a class="burger sidenav-trigger" data-target="slide-out">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </a>
+            </div>
+            <h1 class="h1">Корпоративные автобусные перевозки по Вологде и ВО</h1>
+            <h4 class="h4">Ежедневная комфортная доставка сотрудников, шаттл-басы до мероприятий и бизнес-центров, другие задачи по доставка пассажиров удобно безопасно и вовремя.</h4>
+        </div>
+    </header>
+    <section class="about">
+        <div class="info">
+            <div class="container">
+                <div class="about_grid">
+                    <div class="about_grid-item">
+                        <h4 class="about_h4">32</h4>
+                        <p class="about_p">предприятия на обслуживании</p>
+                    </div>
+                    <div class="about_grid-item">
+                        <h4 class="about_h4">224</h4>
+                        <p class="about_p">ежедневных рейса</p>
+                    </div>
+                    <div class="about_grid-item">
+                        <h4 class="about_h4">84</h4>
+                        <p class="about_p">автобуса в парке</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-h2 project-h2">Автопарк</h2>
+            <div class="about__flex">
+                <div class="about__flex-item">
+                    <img class="project-img" src="img1/avtopark3.png" alt="Example">
+                    <div class="rectangle"></div>
+                    <h3 class="text-h3 project-h3">Минивэны</h3>
+                    <p class="text-p project-p">Закажите минивэн с водителем прямо сейчас и наслаждайтесь комфортом и удобством передвижения по Вологде!</p>
+                </div>
+                <div class="about__flex-item">
+                    <img class="project-img" src="img1/avtopark2.png" alt="Example">
+                    <div class="rectangle"></div>
+                    <h3 class="text-h3 project-h3">Микроавтобусы</h3>
+                    <p class="text-p project-p">Аренда микроавтобуса в Вологде комфортное и надёжное решение для перевозки пассажиров</p>
+                </div>
+                <div class="about__flex-item">
+                    <img class="project-img" src="img1/avtopark1.png" alt="Example">
+                    <div class="rectangle"></div>
+                    <h3 class="text-h3 project-h3">Полноразмерные автобусы</h3>
+                    <p class="text-p project-p">Предлагаем широкий выбор комфортабельных туристических автобусов для аренды в Вологде и области.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Для получения скидки </h4>
+      <p>Во время бронирование скажите или укажите промокод "2025"</p>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+  
+    <section class="request">
+        <div class="container">
+            <div class="request__flex">
+                <div class="request__flex-left">
+                <h4 class="request_h4">Забронируй автобус на новогодние</h4>
+                <h5 class="request_h5">праздники со скидкой 20%</h5>
+                </div>
+                <div class="request__flex-right">
+                <a class="request_btn modal-trigger" href="#modal1">
+                    Подробнее
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="services">
+    <div class="container">
+        <h2 class="text-h2 section__h2">Услуги</h2>
+        <div class="services__grid">
+            <div class="services__grid-item">
+                <img class="services__icon" src="img1/services.png" alt="services__icon" >
+                <h4 class="text-h4 services_h4">Организация перевозок для заводов и складов</h4>
+            </div>
+            <div class="services__grid-item">
+                <img class="services__icon" src="img1/services.png" alt="services__icon" >
+                <h4 class="text-h4 services_h4">Ежедневная доставка сотрудниковв офис</h4>
+            </div>
+            <div class="services__grid-item">
+                <img class="services__icon" src="img1/services.png" alt="services__icon" >
+                <h4 class="text-h4 services_h4">Доставка гостей и персонала на мероприятия</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio">
+    <div class="potfolio_grid">
+        <div class="portfolio_grid-item">
+            <img class="potfolio__img" src="img1/portfolio1.png" alt="portfolio_item">
+        </div>
+        <div class="portfolio_grid-item">
+            <img class="potfolio__img" src="img1/portfolio2.png" alt="portfolio_item">
+        </div>
+        <div class="portfolio_grid-item">
+            <img class="potfolio__img" src="img1/portfolio3.png" alt="portfolio_item">
+        </div>
+        <div class="portfolio_grid-item">
+            <img class="potfolio__img" src="img1/portfolio4.png" alt="portfolio_item">
+        </div>
+        <div class="portfolio_grid-item">
+            <img class="potfolio__img" src="img1/portfolio5.png" alt="portfolio_item">
+        </div>
+        <div class="portfolio_grid-item">
+            <img class="potfolio__img" src="img1/portfolio6.png" alt="portfolio_item">
+        </div>
+        <div class="portfolio_grid-item">
+            <img class="potfolio__img" src="img1/portfolio7.png" alt="portfolio_item">
+        </div>
+        <div class="portfolio_grid-item">
+            <img class="potfolio__img" src="img1/portfolio8.png" alt="portfolio_item">
+        </div>
+    </div>
+</section>
+<section class="question">
+    <div class="container">
+        <h2 class="text-h2 section__h2">Ответы на вопросы</h2>
+        <div class="question__items">
+            <details class="question__item">
+                <summary class="text-h3 question_h3">Работа с частными лицами</summary>
+                    <p class="text-p question_p">
+                        Да, мы работаем с частными лицами и так же делаем скидки как и юр лицам.
+                    </p>
+            </details>
+            <details class="question__item">
+                <summary class="text-h3 question_h3">Какого года выпуска австобусы?</summary>
+                    <p class="text-p question_p">
+                        В нашем автопарке представлены транспортные средства, выпущенные не ранее 2008 года. Они оборудованы всем необходимым, что требуется для комфортной перевозки пассажиров, начиная технологичной аудио-видео аппаратурой и заканчивая индивидуально настраиваемой климат-системой.
+                        Все автобусы перед выездом проходят обязательный технический осмотр, а водители — профессиональную медицинскую комиссию, что обеспечивает полную безопасность людей во время поездок. 
+                    </p>
+        </div>
+    </div>
+</section>
+
+<section class="partners">
+    <div class="container">
+        <h2 class="text-h2 partners__h2">Доверили нам своих сотрудников</h2>
+        <div class="partners__flex">
+            <div class="partners__items">
+                <img src="img1/logo maksi.png" alt="partner">
+            </div>
+            <div class="partners__items">
+                <img src="img1/logo imperial.png" alt="partner">
+            </div>
+            <div class="partners__items">
+                <img src="img1/logo severstal.png" alt="partner">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="reviews">
+    <div class="container">
+        <h2 class="text-h2 reviews__h2">Отзывы о работе с нами</h2>
+        <div class="reviews__grid">
+            <div class="reviews__grid-items">
+                <div class="reviews__card">
+                    <div class="reviews__quotes">“</div>
+                    <p class="text-p-reviews">Комфортные и безопасные перевозки для различных групп пассажиров: от крупных предприятий до частных лиц. Готовы предложить различные варианты транспортных средств в зависимости от количества пассажиров и их потребностей.</p>    
+                </div>
+                <h4 class="text-h4">Иванов Иван, <span class="reviews__author-accent">ООО “Макси-ритейл”</span></h4>
+            </div>
+            <div class="reviews__grid-items">
+                <div class="reviews__card">
+                    <div class="reviews__quotes">“</div>
+                    <p class="text-p-reviews">Одна из лидирующих компаний Вологды и ВО, осуществляющей пассажирские перевозки. Предоставляет комфортный и безопасный транспорт для крупных и малых предприятий, а также для частных лиц по доступным ценам.</p>    
+                </div>
+                <h4 class="text-h4">Сергеев Сергей, <span class="reviews__author-accent">ООО “Стандарт”</span></h4>
+            </div>
+            <div class="reviews__grid-items">
+                <div class="reviews__card">
+                    <div class="reviews__quotes">“</div>
+                    <p class="text-p-reviews">Предоставляет услуги по организации корпоративных перевозок на высшем уровне очень комфортно . Компания готова предложить различные варианты транспортных средств в зависимости от количества пассажиров и их потребностей.</p>    
+                </div>
+                <h4 class="text-h4">Петров Петр, <span class="reviews__author-accent">АО “Северсталь”</span></h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Modal Structure -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Оставить заявку</h4>
+      <p>Можно на почте или по номеру телефона</p>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+
+<section class="request">
+    <div class="container">
+        <div class="request__flex">
+            <div class="request__flex-left">
+            <h4 class="request_h4">Хотите с нами работать?</h4>
+            <h5 class="request_h5">Оставьте заявку и мы свяжемся с вами!</h5>
+            </div>
+            <div class="request__flex-right">
+                <a class="request_btn modal-trigger" href="#modal2">
+                    Подробнее
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contacts">
+    <div class="container">
+        <h2 class="text-h2 contacts__h2">Контакты</h2>
+        <div class="contacts__grid">
+            <div class="contacts__items">
+                <img class="contacts__icon" src="img1/map.svg" alt="Maping" >
+                <h3 class="text-h3 contacts__h3 contacts__h3-gray">Адрес:</h3>
+                <h3 class="text-h3 contacts__h3">г.Вологда<br>ул.Мира 9, офис 34</h3>
+            </div>
+            <div class="contacts__items">
+                <img class="contacts__icon" src="img1/phone.svg" alt="Phone_numb" >
+                <h3 class="text-h3 contacts__h3 contacts__h3-gray">Телефон:</h3>
+                <h3 class="text-h3 contacts__h3">
+                    <a href="tel:+79992603016">+7 (999) 260-30-16</a>
+                    <br>
+                    <a href="tel:+79992603016">+7 (999) 260-30-16</a>
+                </h3>
+            </div>
+            <div class="contacts__items">
+                <img class="contacts__icon" src="img1/clock.svg" alt="clock_time" >
+                <h3 class="text-h3 contacts__h3 contacts__h3-gray">Время работы:</h3>
+                <h3 class="text-h3 contacts__h3">ПН-СБ<br>10:00 - 20:00</h3>
+            </div>
+            <div class="contacts__items">
+                <img class="contacts__icon" src="img1/mail.svg" alt="mail_adress" >
+                <h3 class="text-h3 contacts__h3 contacts__h3-gray">E-MAIL:</h3>
+                <h3 class="text-h3 contacts__h3 contacts__h3-accent"><a href="mailto:klinbus@klimasia.ru">klinbus@klimasia.ru</a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__flex">
+            <p class="text-p footer__copyright">© 2024 Клинбас</p>
+            <p class="text-p footer__brand">Разработано Климасей</p>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
